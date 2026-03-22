@@ -30,7 +30,8 @@ El contenido está organizado de forma cronológica. Las casillas marcadas indic
   - [x] Bases de la informática
   - [x] PseudoCodigo
   - [x] Linux y la terminal
-  - [ ] Python y Python avanzado
+  - [x] Python
+  - [ ] Python avanzado
   - [ ] Principios SOLID
   - [x] Github y Git
 </details>
