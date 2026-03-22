@@ -22,6 +22,61 @@ A lo largo del máster, he trabajado y dominado las siguientes tecnologías:
 
 ## 📚 Temario y Estructura del Repositorio (Progreso)
 
+El contenido está organizado de forma cronológica. Las insignias visuales indican mi avance en cada módulo.
+
+<details>
+  <summary><b>📂 00. Prework</b> | 🟩🟩🟩🟩🟩⬜⬜ (5/7 Completado)</summary>
+  
+  - ✅ Bases de la informática
+  - ✅ PseudoCodigo
+  - ✅ Linux y la terminal
+  - ✅ Python
+  - ⬜ Python avanzado
+  - ⬜ Principios SOLID
+  - ✅ Github y Git
+</details>
+
+<details>
+  <summary><b>📂 01. Frontend</b> | 🟩⬜⬜⬜⬜ (1/5 Completado)</summary>
+  
+  - ✅ HTML
+  - ⬜ CSS
+  - ⬜ JavaScript
+  - ⬜ ReactJS
+  - ⬜ TypeScript
+</details>
+
+<details>
+  <summary><b>📂 02. Backend</b> | 🟩⬜⬜⬜⬜⬜ (1/6 Completado)</summary>
+  
+  - ⬜ StreamLIT
+  - ✅ SQL
+  - ⬜ Django
+  - ⬜ Wordpress
+  - ⬜ Despliegue
+  - ⬜ SEO
+</details>
+
+<details>
+  <summary><b>📂 03. Frontend Experto</b> | ⬜⬜⬜⬜⬜ (0/5 Completado)</summary>
+  
+  - ⬜ ReactJS Básico
+  - ⬜ ReactJS Avanzado
+  - ⬜ Astro
+  - ⬜ Angular
+  - ⬜ VueJS
+</details>
+
+<details>
+  <summary><b>📂 04. Backend Experto</b> | ⬜⬜⬜⬜⬜ (0/5 Completado)</summary>
+  
+  - ⬜ SQL Avanzado
+  - ⬜ Java
+  - ⬜ Node.js
+  - ⬜ Rust
+  - ⬜ Golang
+</details>
+
 El contenido está organizado de forma cronológica. Las casillas marcadas indican los módulos que ya he completado.
 
 <details>
