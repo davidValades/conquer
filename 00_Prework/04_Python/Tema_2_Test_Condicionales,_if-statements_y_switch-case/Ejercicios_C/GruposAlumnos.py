@@ -5,3 +5,24 @@
 # Crea un script que pregunte al usuario si es chica o chico y el nombre. El script debe mostrar por
 # pantalla el grupo que le corresponde a ese alumno
 
+# Pedir por pantalla si es chico o chica
+genero = input("¿Eres chico o chica? (chico/chica): ").strip().lower()
+
+# Pedir por pantalla el nombre
+nombre = input("¿Cuál es tu nombre? ").strip()
+
+# Determinar el grupo al que pertenece el alumno
+if genero == "chica":
+    if 'E' <= nombre[0].upper() <= 'M':
+        grupo = "A"
+    else:
+        grupo = "B"
+elif genero == "chico":
+    if ('A' <= nombre[0].upper() <= 'H') or ('R' <= nombre[0].upper() <= 'Z'):
+        grupo = "A"
+    else:
+        grupo = "B"
+
+# Mostrar el grupo al que pertenece el alumno
+print(f"Te corresponde el grupo {grupo}.") 
+
