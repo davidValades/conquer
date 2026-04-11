@@ -91,9 +91,9 @@ El contenido está organizado de forma cronológica. Haz clic en cada módulo pa
 
 Aquí puedes ver la aplicación real de lo aprendido.
 
-| Proyecto               | Descripción                                             | Tecnologías | Demo / Código |
-| :--------------------- | :------------------------------------------------------ | :---------- | :------------ |
-| 🚧 **En construcción** | _Pronto subiré aquí mis primeros proyectos del máster._ | `-`         | `-`           |
+| Proyecto                                                           | Descripción                                                                                              | Tecnologías                                                                                             | Demo / Código                                             |
+| :----------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------- |
+| **[Conquer Academy](./Proyectos_Destacados/Conquer_Academy_HTML)** | Plataforma académica online enfocada en la arquitectura semántica de la información y accesibilidad web. | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) | [Ver Código](./Proyectos_Destacados/Conquer_Academy_HTML) |
 
 ---
 
