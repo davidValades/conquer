@@ -3,7 +3,7 @@
 while condicion:
     ejecucion_codigo
 
-while (expr_logica) and/or (expr_logica2):
+while (expr_logica) and (expr_logica2):
     ejecucion_codigo
 
 # sintaxis for
