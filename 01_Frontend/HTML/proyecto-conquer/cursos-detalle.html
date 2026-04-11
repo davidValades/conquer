@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HTML y CSS desde cero – Aprende a estructurar y dar estilo a páginas web con HTML5 semántico y CSS3 moderno en Conquer Blocks Academy." />
+  <title>HTML y CSS desde cero – Cursos – Conquer Blocks Academy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="img/logo-conquer.png" alt="Conquer Blocks Academy" width="150" height="48" />
+      </a>
+      <nav class="main-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="cursos.html" aria-current="page">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+    <div class="container section">
+
+      <!-- Migas de pan -->
+      <nav aria-label="Migas de pan">
+        <ol style="display: flex; gap: 0.5rem; font-size: 0.875rem; list-style: none; margin-bottom: 1.5rem; color: #6c757d;">
+          <li><a href="index.html">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li aria-hidden="true">/</li>
+          <li aria-current="page">HTML y CSS desde cero</li>
+        </ol>
+      </nav>
+
+      <!-- Detalle del curso -->
+      <article class="article-hero">
+        <picture>
+          <source
+            media="(min-width: 800px)"
+            srcset="img/curso-html-css-large.jpg 1200w, img/curso-html-css.jpg 800w"
+            sizes="(min-width: 800px) 800px"
+          />
+          <img
+            src="img/curso-html-css.jpg"
+            alt="Pantalla de ordenador mostrando código HTML y CSS"
+            width="900"
+            height="420"
+          />
+        </picture>
+
+        <header>
+          <span class="tag">Principiante</span>
+          <h1 style="margin: 0.75rem 0 0.25rem; color: #1d3557;">HTML y CSS desde cero</h1>
+          <p class="article-meta">
+            <time datetime="2024-01-15">15 enero 2024</time> &mdash;
+            Instructor: <strong>Ana García</strong> &mdash;
+            Duración: <strong>40 horas</strong>
+          </p>
+        </header>
+
+        <div class="article-content">
+          <h2>Descripción del curso</h2>
+          <p>
+            En este curso aprenderás a construir páginas web desde cero utilizando HTML5 semántico
+            y CSS3 moderno. Comenzaremos por la estructura básica de un documento HTML y terminaremos
+            maquetando diseños responsive complejos con Flexbox y CSS Grid.
+          </p>
+
+          <h2>¿Qué aprenderás?</h2>
+          <ul>
+            <li>Estructura básica de documentos HTML5</li>
+            <li>Etiquetas semánticas: header, nav, main, section, article, footer</li>
+            <li>Formularios accesibles y validación HTML</li>
+            <li>Selectores CSS y especificidad</li>
+            <li>Box model: margin, padding, border</li>
+            <li>Flexbox y CSS Grid para maquetación</li>
+            <li>Diseño responsive con media queries</li>
+            <li>Imágenes responsive con srcset y picture</li>
+          </ul>
+
+          <h2>Requisitos previos</h2>
+          <p>
+            No necesitas conocimientos previos de programación. Solo un ordenador con acceso a
+            internet y muchas ganas de aprender.
+          </p>
+
+          <h2>Contenido del curso</h2>
+          <ol>
+            <li>Introducción al desarrollo web</li>
+            <li>Tu primer documento HTML</li>
+            <li>Etiquetas de texto, listas y tablas</li>
+            <li>Imágenes, audio y vídeo</li>
+            <li>Formularios en HTML5</li>
+            <li>Introducción a CSS3</li>
+            <li>El modelo de caja</li>
+            <li>Posicionamiento y display</li>
+            <li>Flexbox paso a paso</li>
+            <li>CSS Grid</li>
+            <li>Diseño responsive</li>
+            <li>Proyecto final: portfolio personal</li>
+          </ol>
+        </div>
+
+        <p style="margin-top: 2rem;">
+          <a href="registro.html" class="btn">Inscribirme al curso</a>
+          <a href="cursos.html" class="btn btn-outline" style="margin-left: 0.75rem;">Ver más cursos</a>
+        </p>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Conquer Blocks Academy. Todos los derechos reservados.</p>
+      <p><a href="aviso-legal.html">Aviso Legal</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
