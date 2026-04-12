@@ -21,11 +21,49 @@
         </ul>
       </nav>
     </header>
-    <img
-      src="../../assets/images/banner.webp"
-      alt="Imagen de Conquer Academy"
-    />
-    <main></main>
+    <main>
+      <img
+        width="80%"
+        src="../../assets/images/banner.webp"
+        alt="Imagen de Conquer Academy"
+      />
+      <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div>
+          <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+          <input
+            type="date"
+            id="fecha_nacimiento"
+            name="fecha_nacimiento"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="direccion">Dirección</label>
+          <input type="text" id="direccion" name="direccion" required />
+        </div>
+        <div>
+          <label for="pagina_web">Página Web</label>
+          <input type="url" id="pagina_web" name="pagina_web" />
+        </div>
+        <div>
+          <label for="foto">Foto de Perfil</label>
+          <input type="file" id="foto" name="foto" accept="image/*" />
+        </div>
+        <div>
+          <label for="biografia">Biografía</label>
+          <textarea id="biografia" name="biografia"></textarea>
+        </div>
+        <button type="submit">Registrarse</button>
+      </form>
+    </main>
     <footer>
       <p>&copy; 2024 Conquer Academy. Todos los derechos reservados.</p>
       <a href="../legal/aviso-legal.html">Aviso Legal</a> |
