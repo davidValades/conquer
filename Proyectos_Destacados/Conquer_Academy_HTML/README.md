@@ -1,54 +1,51 @@
 # 🎓 Conquer Academy | HTML Semantic Structure
 
-![Status](https://img.shields.io/badge/Estado-En_Desarrollo_🚀-2ea44f?style=for-the-badge)
+![Status](https://img.shields.io/badge/Estado-Completado_✅-2ea44f?style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-Primer proyecto práctico del **Master en Desarrollo Web Full Stack** de ConquerBlocks. Este proyecto se centra exclusivamente en la arquitectura, semántica y estructuración de la información mediante HTML5, sentando bases sólidas antes de introducir la capa de presentación (CSS).
+Primer proyecto práctico del **Master en Desarrollo Web Full Stack** de ConquerBlocks. Este proyecto se centra exclusivamente en la arquitectura, semántica y estructuración de la información mediante HTML5, sentando bases sólidas antes de introducir la capa de presentación (CSS) o interactividad (JavaScript).
 
 ## 🎯 Objetivo del Proyecto
 
-Construir el esqueleto de una plataforma web para una academia online ("Conquer Academy"). El reto principal consiste en estructurar múltiples vistas interconectadas asegurando una navegación lógica, el uso correcto de etiquetas de SEO básico y una accesibilidad semántica estricta.
+Construir el esqueleto completo de una plataforma web para una academia online ("Conquer Academy"). El reto principal ha consistido en estructurar múltiples vistas interconectadas, asegurando una navegación lógica mediante rutas relativas, el uso correcto de etiquetas para SEO básico y una accesibilidad semántica estricta.
 
-## ✨ Características Principales y Aprendizajes
+## 🧠 Conocimientos Aplicados y Retos Superados
 
-- **Estructura Semántica:** Uso riguroso de etiquetas de HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) para dar significado al contenido más allá de su apariencia.
-- **Jerarquía de Contenidos:** Implementación estructurada de niveles de encabezados (`<h1>` a `<h6>`) para mejorar la lectura por parte de navegadores y tecnologías de asistencia.
-- **Formularios HTML:** Creación de vistas de Login, Registro y Contacto utilizando los tipos de `input` adecuados (`email`, `password`, `date`, etc.) para una validación nativa.
-- **Navegación Relativa:** Sistema de enlaces internos completamente funcional, organizado en una arquitectura de carpetas escalable y profesional.
-- **Optimización Base (SEO):** Inclusión de meta etiquetas únicas (`title`, `description`) por página y uso de imágenes responsive.
+Durante el desarrollo de este proyecto, he consolidado las siguientes habilidades técnicas:
+
+- **Estructura Semántica Avanzada:** Sustitución de `<div>` genéricos por etiquetas con valor semántico (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<address>`, `<footer>`) para mejorar la accesibilidad y el SEO.
+- **Navegación Relativa (File System):** Dominio de las rutas relativas (`./` y `../`) para interconectar de forma robusta un árbol de directorios con múltiples niveles de profundidad.
+- **Formularios e Integridad de Datos:** Maquetación de vistas de Login, Registro y Contacto. Uso avanzado de atributos `type` (`email`, `password`, `date`, `url`, `file`) para forzar la validación nativa del navegador, y configuración del atributo `enctype="multipart/form-data"` para permitir la subida de archivos.
+- **Incrustación de Terceros:** Integración de un mapa interactivo de Google Maps utilizando la etiqueta `<iframe>` sin depender de scripts externos.
 
 ## 📂 Arquitectura del Proyecto
 
-El proyecto sigue una organización de directorios limpia para separar las vistas por contexto:
+El proyecto sigue una organización modular de directorios para separar las vistas por su contexto funcional:
 
 ```text
 conquer-academy-html/
 ├── assets/                 # Recursos estáticos
-│   └── images/             # Imágenes optimizadas y logos
-├── pages/                  # Vistas secundarias
+│   └── images/             # Imágenes optimizadas (banner.webp)
+├── pages/                  # Vistas secundarias agrupadas por dominio
 │   ├── auth/
 │   │   ├── login.html
 │   │   └── registro.html
 │   ├── blog/
 │   │   ├── blog.html
-│   │   └── detalle-noticia.html
+│   │   ├── noticia1.html
+│   │   └── noticia2.html
 │   ├── courses/
 │   │   ├── cursos.html
-│   │   └── detalle-curso.html
+│   │   ├── curso-diseno-grafico.html
+│   │   ├── curso-javascript.html
+│   │   ├── curso-programacion-web.html
+│   │   └── curso-python.html
 │   ├── legal/
-│   │   └── aviso-legal.html
+│   │   ├── aviso-legal.html
+│   │   ├── politica-privacidad.html
+│   │   └── terminos-uso.html
 │   ├── contacto.html
 │   └── quienes-somos.html
 ├── index.html              # Landing page principal (Home)
 └── README.md               # Documentación del proyecto
 ```
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Estructura:** HTML5 Puro.
-
-- **Entorno:** Visual Studio Code.
-
-- **Control de Versiones:** Git & GitHub.
-
-⭐ Proyecto desarrollado por David Valadés Navarro como parte del currículo de ConquerBlocks.
