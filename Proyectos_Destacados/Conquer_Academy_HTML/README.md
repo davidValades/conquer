@@ -56,4 +56,4 @@ conquer-academy-html/
 - **Entorno:** Visual Studio Code
 - **Control de Versiones:** Git & GitHub
 
-⭐ Proyecto desarrollado por [David Valadés Navarro](https://github.com/davidValades).\_ como parte del currículo de ConquerBlocks.
+⭐ Proyecto desarrollado por [David Valadés Navarro](https://github.com/davidValades) como parte del currículo de ConquerBlocks.
