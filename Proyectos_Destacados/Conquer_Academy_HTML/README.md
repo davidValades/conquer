@@ -49,3 +49,11 @@ conquer-academy-html/
 ├── index.html              # Landing page principal (Home)
 └── README.md               # Documentación del proyecto
 ```
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Estructura:** HTML5
+- **Entorno:** Visual Studio Code
+- **Control de Versiones:** Git & GitHub
+
+⭐ Proyecto desarrollado por [David Valadés Navarro](https://github.com/davidValades).\_ como parte del currículo de ConquerBlocks.
