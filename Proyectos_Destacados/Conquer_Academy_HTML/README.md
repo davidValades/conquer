@@ -23,16 +23,24 @@ El proyecto sigue una organización de directorios limpia para separar las vista
 
 ```text
 conquer-academy-html/
-├── assets/                 # Recursos estáticos (Imágenes/Logos)
+├── assets/                 # Recursos estáticos
+│   └── images/             # Imágenes optimizadas y logos
 ├── pages/                  # Vistas secundarias
-│   ├── auth/               # login.html, registro.html
-│   ├── blog/               # blog.html, detalle-noticia.html
-│   ├── courses/            # cursos.html, detalle-curso.html
-│   ├── legal/              # aviso-legal.html, privacidad.html
-│   ├── contacto/           # contacto.html
-│   └── quienes-somos.html  # Página sobre la academia
-├── index.html              # Home (Raíz)
-└── README.md
+│   ├── auth/
+│   │   ├── login.html
+│   │   └── registro.html
+│   ├── blog/
+│   │   ├── blog.html
+│   │   └── detalle-noticia.html
+│   ├── courses/
+│   │   ├── cursos.html
+│   │   └── detalle-curso.html
+│   ├── legal/
+│   │   └── aviso-legal.html
+│   ├── contacto.html
+│   └── quienes-somos.html
+├── index.html              # Landing page principal (Home)
+└── README.md               # Documentación del proyecto
 ```
 
 ## 🛠️ Tecnologías Utilizadas
