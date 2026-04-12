@@ -20,14 +20,64 @@
           <li><a href="./auth/login.html">Login</a></li>
         </ul>
       </nav>
-      <hero>
-        <img
-          src="../assets/images/banner.webp"
-          alt="Imagen de Conquer Academy"
-        />
-      </hero>
     </header>
-    <main></main>
+    <main>
+      <img src="../assets/images/banner.webp" alt="Imagen de Conquer Academy" />
+      <h2>Contáctanos</h2>
+      <p>
+        Si tienes alguna pregunta, sugerencia o simplemente quieres ponerte en
+        contacto con nosotros, no dudes en enviarnos un mensaje. Estamos aquí
+        para ayudarte y responder a todas tus consultas.
+      </p>
+      <div class="contact-info">
+        <h3>Información de Contacto</h3>
+        <p>
+          Estamos disponibles para responder tus preguntas y ayudarte en lo que
+          necesites.
+        </p>
+        <address>
+          <p><strong>Dirección:</strong> Calle Falsa 123, Ciudad, País</p>
+          <p><strong>Teléfono:</strong> +1 234 567 890</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:info@conqueracademyfalsa.com"
+              >info@conqueracademyfalsa.com</a
+            >
+          </p>
+        </address>
+      </div>
+      <div class="google-maps">
+        <h3>Ubicación en Google Maps</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12147.768281462331!2d-3.742657890559477!3d40.43228162414314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228188c1d8917%3A0x243d095b52a81126!2sCentro%20Deportivo%20Municipal%20Jos%C3%A9%20Mar%C3%ADa%20Cagigal!5e0!3m2!1ses!2ses!4v1775988299423!5m2!1ses!2ses"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div>
+          <label for="file">Adjuntar archivo:</label>
+          <input type="file" id="file" name="file" />
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
     <footer>
       <p>&copy; 2024 Conquer Academy. Todos los derechos reservados.</p>
       <a href="legal/aviso-legal.html">Aviso Legal</a> |
